@@ -61,3 +61,23 @@ body > * {
 .image-holder img {
     max-height: 80%;
 }
+
+span {
+    display: flex;
+    flex-direction: column;
+}
+
+form > * {
+    padding: 5px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    background-color: green;
+    color: white;
+}
