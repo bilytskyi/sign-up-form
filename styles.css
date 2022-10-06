@@ -17,7 +17,6 @@ body > * {
 .left-part {
     padding-top: 120px;
     background-image: url(https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=487&q=80);
-    background-repeat: no-repeat;
     flex-basis: 35%;
 }
 
@@ -78,6 +77,25 @@ form > * {
 button {
     height: 50px;
     width: 200px;
-    background-color: green;
+    background-color: #596D48;
     color: white;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+span.text {
+    display: inline;
+    color: #596D48;
+}
+
+input {
+    border: solid 3px #E5E7EB;
+}
+
+input:focus {
+    border: solid 3px green;
+}
+
+label {
+    font-size: 14px;
 }
